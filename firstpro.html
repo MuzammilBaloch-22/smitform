@@ -1,0 +1,329 @@
+<html>
+ <head>
+  <title>
+   Registration Form - SMIT
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header img {
+            width: 400px;
+        }
+        .header h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .header p {
+            margin: 0;
+            color: #666;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 500;
+        }
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .form-group .form-control {
+            flex: 1;
+            min-width: 300px;
+            margin-bottom: 20px;
+        }
+        .form-group .form-control label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .form-group .form-control input,
+        .form-group .form-control select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+        .form-group .form-control input[type="file"] {
+            padding: 3px;
+        }
+        .form-group .form-control .upload-info {
+            font-size: 12px;
+            color: #666;
+        }
+        .form-group .form-control .upload-info p {
+            margin: 5px 0;
+        }
+        .form-group .form-control .upload-info p:first-child {
+            margin-top: 10px;
+        }
+        .form-group .form-control .upload-info p:last-child {
+            margin-bottom: 10px;
+        }
+        .terms {
+            margin: 20px 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .terms p {
+            margin: 5px 0;
+        }
+        .submit-btn {
+            display: flex;
+            justify-content: center;
+        }
+        .submit-btn button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 768px) {
+            .form-group .form-control {
+                min-width: 100%;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <img alt="Logo" height="100" src="https://s.yimg.com/zb/imgv1/e0911e70-b238-3d7f-9d78-c387e10c73e8/t_500x300" width="100"/>
+    <h1>
+     Registration Form - SMIT
+    </h1>
+    <p>
+     Services - Education - Registration
+    </p>
+   </div>
+   <div class="nav">
+    <a href="#">
+     Registration
+    </a>
+    <a href="#">
+     Download ID Card
+    </a>
+    <a href="#">
+     Results
+    </a>
+   </div>
+   <form action="https://formsubmit.co/muzambaloch22@gmail.com" method="POST">
+    <div class="form-group">
+     <div class="form-control">
+      <label for="country">
+       Select country
+      </label>
+      <select id="country"  name="country">
+       <option>
+        Select country
+       </option>
+       <option value="">Pakistan</option>
+       <option value="">Turkey</option>
+      </select>
+     </div>
+     <div class="form-control">
+      <label for="city">
+       Select city
+      </label>
+      <select id="city" name="city">
+       <option>
+        Select city
+       </option>
+       <option value="">Karachi</option>
+       <option value="">Queeta</option>
+       <option value="">Hyedrabad</option>
+      </select>
+     </div>
+     <div class="form-control">
+      <label for="course">
+       Select course or event
+      </label>
+      <select id="course" name="course">
+       <option>
+        Select course or event
+       </option>
+       <option value="">None</option>
+       <option value="">Beginner</option>
+       <option value="">Intermediate</option>
+       <option value="">Advanced</option>
+      </select>
+     </div>
+     <div class="form-control">
+      <label for="proficiency">
+       Select your computer proficiency
+      </label>
+      <select id="proficiency" name="proficiency">
+       <option>
+        Select your computer proficiency
+       </option>
+      </select>
+     </div>
+     <div class="form-control">
+      <label for="fullname">
+       Full name
+      </label>
+      <input id="fullname" name="fullname" placeholder="Full name" type="text"/>
+     </div>
+     <div class="form-control">
+      <label for="fathername">
+       Father name
+      </label>
+      <input id="fathername" name="fathername" placeholder="Father name" type="text"/>
+     </div>
+     <div class="form-control">
+      <label for="email">
+       Email
+      </label>
+      <input id="email" name="email" placeholder="Email" type="email"/>
+     </div>
+     <div class="form-control">
+      <label for="phone">
+       Phone
+      </label>
+      <input id="phone" name="phone" placeholder="Phone" type="number"/>
+     </div>
+     <div class="form-control">
+      <label for="cnic">
+       CNIC
+      </label>
+      <input id="cnic" name="cnic" placeholder="CNIC" type="text"/>
+     </div>
+     <div class="form-control">
+      <label for="fatherscnic">
+       Father's CNIC (optional)
+      </label>
+      <input id="fatherscnic" name="fatherscnic" placeholder="Father's CNIC (optional)" type="text"/>
+     </div>
+     <div class="form-control">
+      <label for="dob">
+       Date of birth
+      </label>
+      <input id="dob"  name="dob" placeholder="dd/mm/yyyy" type="date"/>
+     </div>
+     <div class="form-control">
+      <label for="gender">
+       Select gender
+      </label>
+      <select id="gender" name="gender">
+       <option>
+        Select gender
+       </option>
+       <option value="">Male</option>
+       <option value="">Female</option>
+      </select>
+     </div>
+     <div class="form-control">
+      <label for="address">
+       Address
+      </label>
+      <input id="address" name="address" placeholder="Address" type="text"/>
+     </div>
+     <div class="form-control">
+      <label for="qualification">
+       Last qualification
+      </label>
+      <select id="laptop" name="laptop">
+        <option>
+         Last Qualification
+        </option>
+        <option value="">Metric</option>
+        <option value="">Inter</option>
+        <option value="">Undergraduate</option>
+        <option value="">Graduate</option>
+        <option value="">Master</option>
+        <option value="">PHD</option>
+        <option value="">Other</option>
+       </select>
+     </div>
+
+     
+     <div class="form-control">
+      <label for="laptop">
+       Do you have a Laptop?
+      </label>
+      <select id="laptop" name="laptop">
+       <option>
+        Do you have a Laptop?
+       </option>
+       <option value="">Yes</option>
+       <option value="">No</option>
+      </select>
+     </div>
+     <div class="form-control">
+      <label for="picture">
+       Picture
+      </label>
+      <input id="picture" name="picture" type="file"/>
+      <div class="upload-info">
+       <p>
+        With white or blue background
+       </p>
+       <p>
+        File size must be less than 1MB
+       </p>
+       <p>
+        File type: jpg, jpeg, png
+       </p>
+       <p>
+        Upload your recent passport size picture
+       </p>
+       <p>
+        Your face should be clearly visible without any Glasses
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="terms">
+     <p>
+      1. I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT.
+     </p>
+     <p>
+      2. I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.
+     </p>
+     <p>
+      3. Defiance will render my admission canceled at any point in time.
+     </p>
+     <p>
+      4. Upon completion, of the course, I will complete the required project by SWIT.
+     </p>
+     <p>
+      5. It's mandatory for female students to wear abaya/hijab in the class
+     </p>
+    </div>
+    <div class="submit-btn">
+     <button type="submit">
+      SUBMIT
+     </button>
+    </div>
+   </form>
+  </div>
+ </body>
+</html>
